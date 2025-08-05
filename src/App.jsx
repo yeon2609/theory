@@ -1,8 +1,12 @@
-import Hello from "./hello"
+
+import Circle from "./Circle"
 
 function App() {
   return <>
-      <Hello></Hello>
+      <Circle size = '50px' bg = 'red'></Circle>
+      <Circle size = '100px' bg = 'blue'></Circle>
+      <Circle size = '200px' bg = 'green'></Circle>
+      
     </>
   
 }
